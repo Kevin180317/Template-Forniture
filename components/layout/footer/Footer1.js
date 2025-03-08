@@ -24,7 +24,14 @@ export default function Footer1() {
                 <div className="single-footer-widget footer-widget__about">
                   <div className="logo-box">
                     <Link href="/">
-                      <img src="" alt="LOGO" />
+                      <img src="/logo.png" alt="LOGO"   style={{
+    height: "50px",        // Ajusta la altura del logo
+    width: "auto",         // Mantiene la proporción original
+    marginLeft: "20px",    // Espaciado desde el borde izquierdo
+    marginRight: "20px",   // Espaciado desde el borde derecho
+    display: "block",      // Elimina el espacio extra debajo de la imagen
+    objectFit: "contain",  // Asegura que la imagen se ajuste bien sin distorsionarse
+  }} />
                     </Link>
                   </div>
 
@@ -127,7 +134,7 @@ export default function Footer1() {
             <div className="footer-bottom__inner">
               <div className="footer-bottom__text text-center">
                 <p>
-                  Copyright © 2024 profurniture by{" "}
+                  Copyright © 2025 profurniture by{" "}
                   <Link href="">profurniture.</Link>
                   All Rights Reserved
                 </p>

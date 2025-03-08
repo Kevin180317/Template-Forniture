@@ -28,7 +28,18 @@ export default function Header1({
                         <Link href="/">
                           {" "}
                           {/* <img src="assets/img/resource/logo-1.png" alt="" /> */}
-                          <img src="/assets/img/logo/logo-1.png" alt="LOGO" />
+                          <img
+                            src="/logo.png"
+                            alt="LOGO"
+                            style={{
+                              height: "50px", // Ajusta la altura del logo
+                              width: "auto", // Mantiene la proporción original
+                              marginLeft: "20px", // Espaciado desde el borde izquierdo
+                              marginRight: "20px", // Espaciado desde el borde derecho
+                              display: "block", // Elimina el espacio extra debajo de la imagen
+                              objectFit: "contain", // Asegura que la imagen se ajuste bien sin distorsionarse
+                            }}
+                          />
                         </Link>
                       </div>
                     </div>

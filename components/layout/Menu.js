@@ -80,7 +80,7 @@ export default function Menu() {
             </li>
           </ul> */}
         </li>
-        <li>
+        {/* <li>
           <Link href="">About</Link>
         </li>
         <li>
@@ -95,7 +95,7 @@ export default function Menu() {
 
         <li>
           <Link href="">Contact</Link>
-        </li>
+        </li> */}
 
         {/* <li>
           <Link href="/about">About</Link>

@@ -1,4 +1,4 @@
-// File: C:\Users\Usuario\OneDrive\Escritorio\xafran-architecture-interior-next-js-template-2024-08-18-10-35-42-utc\xafran pack\xafran\app\layout.js
+// File: /home/kevin-ortega/Dev/Template-Forniture/app/layout.js
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

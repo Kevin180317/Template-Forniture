@@ -25,7 +25,7 @@ export default function Home() {
         <Faq />
         <FeautureTwo />
         <Video />
-        <Brand />
+        {/* <Brand /> */}
         <Features1 />
         <Testimonial />
         {/* <News /> */}

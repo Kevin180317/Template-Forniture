@@ -15,14 +15,18 @@ export default function Features1() {
               className="col-xl-5 wow animated fadeInLeft"
               data-wow-delay="0.1s"
             >
-              <div className="feauture-three__img">
-                <div className="inner clearfix">
-                  <img
-                    src="assets/img/resource/feauture-v3-img1.jpg"
-                    alt="video"
-                  />
-                </div>
-              </div>
+<div className="feauture-three__img">
+  <div className="inner clearfix">
+    <video
+      src="/Muebles.mov"
+      alt="video"
+      controls
+      width="100%" // Ajusta el tamaño del video
+      height="auto" // Mantiene la proporción del video
+    />
+  </div>
+</div>
+
             </div>
             {/*End Feauture Three Img */}
 
